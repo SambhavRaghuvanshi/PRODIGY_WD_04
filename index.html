@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader">Welcome...</div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Beginner<span>Dev</span></div>
+            <div class="hamburger" id="hamburger">
+                <i data-lucide="menu"></i>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hello, I'm <span class="highlight">Sambhav</span></h1>
+                <p>A passionate <strong>First-Year Student</strong> exploring the web world with HTML, CSS, JS & more.
+                </p>
+                <a href="#projects" class="btn">See My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="pics/2842680.jpg" alt="Developer Illustration">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about hidden">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-intro">I'm a passionate first-year Computer Science student exploring the world of web
+                development. I enjoy creating clean, interactive, and user-friendly web interfaces while building a
+                strong foundation in full-stack development.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="icon">🛠️</div>
+                    <h3>Core Skills</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <div class="icon">📚</div>
+                    <h3>Currently Learning</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <div class="icon">🚀</div>
+                    <h3>Projects</h3>
+                    <p><strong>Completed:</strong> To-Do App, Weather App</p>
+                    <p><strong>Ongoing:</strong> Memory Game</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">📍</div>
+                    <h3>Location</h3>
+                    <p>Delhi, India</p>
+                    <p><em>Open to collaborations & remote roles</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects hidden" id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="pics\appointment-booking-design_23-2148557730.avif" alt="To-Do App">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>To-Do App</h3>
+                            <p>A simple To-Do app using localStorage.</p>
+                            <a href="https://github.com/example/project1" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="pics\45211.jpg" alt="Weather App">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>Weather App</h3>
+                            <p>Shows live weather data using OpenWeather API.</p>
+                            <a href="https://github.com/example/project2" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="pics\8494438.jpg" alt="Memory Game">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>Memory Game</h3>
+                            <p>A fun card-flip game made with HTML, CSS & JS.</p>
+                            <a href="https://github.com/example/memory-game" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education hidden" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">🎓</div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Present</span>
+                        <h3>B.Tech in Computer Science</h3>
+                        <p>Currently pursuing Computer Science from AKTU University, with a focus on software development
+                            and web technologies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">🏫</div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - 2023</span>
+                        <h3>Senior Secondary Education</h3>
+                        <p>Completed higher secondary education at Ryan International School, Greater Noida with majors in PCM and a keen
+                            interest in coding.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact hidden" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-intro">I'd love to hear from you — whether you have a question, a project idea, or just
+                want to say hello. Let’s connect!</p>
+
+            <div class="contact-content enhanced">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Connect With Me</h3>
+                    <p class="info-note">I’m available on the platforms below. Feel free to drop a message or
+                        collaborate:</p>
+                    <ul class="social-links">
+                        <li><a href="https://github.com/pratham22r" target="_blank" aria-label="GitHub"><i
+                                    data-lucide="github"></i></a></li>
+                        <li><a href="https://linkedin.com/in/pratham-raghuvanshi" target="_blank"
+                                aria-label="LinkedIn"><i data-lucide="linkedin"></i></a></li>
+                        <li><a href="mailto:pratham2262003@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com" target="_blank" aria-label="Twitter"><i
+                                    data-lucide="twitter"></i></a></li>
+                    </ul>
+
+                    <div class="email-contact">
+                        <strong>Email:</strong>
+                        <a href="mailto:pratham2262003@gmail.com">sambhavraghuvanshi17@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Sambhav Raghuvanshi. All rights reserved.</p>
+            <button id="backToTop">Back to Top</button>
+        </div>
+    </footer>
+
+
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+
+</html>
