@@ -1,103 +1,94 @@
-# 🗓️ Appointment Booking UI — Prodigy_WD_04
 
-A modern and responsive **Appointment Booking Web Page** built as part of the **Prodigy Web Development Internship (Task 4)** by **Sambhav Raghuvanshi**. The project presents a clean, intuitive UI for appointment scheduling, designed using HTML, CSS, and vanilla JavaScript.
+# 👨‍💻 Sambhav Raghuvanshi — Personal Portfolio Website
 
-![Preview](./pics/appointment-booking-design_23-2148557730.avif)
+Welcome to the source code of my **personal portfolio website**, crafted to showcase my journey as a Computer Science student with a passion for **AI/ML**, **web development**, and innovative problem-solving.
+
+This site is a reflection of my skills, projects, and personality — built using only **HTML**, **CSS**, and **JavaScript**, demonstrating my ability to build elegant, responsive designs without relying on heavy frameworks.
+
+![Design Preview](./pics/Screenshot 2025-07-24 122746.png)
 
 ---
 
 ## 📁 Project Structure
 
-```bash
-Directory structure:
-└── sambhavraghuvanshi-prodigy_wd_04.git/
-    ├── index.html
-    ├── script.js
-    ├── style.css
-    └── pics/
-        └── appointment-booking-design_23-2148557730.avif
+```
+sambhavraghuvanshi-prodigy_wd_04/
+├── index.html               # Homepage - intro, projects, contact, etc.
+├── style.css                # All custom styles
+├── script.js                # Basic interactivity (menu, scroll effects, etc.)
+└── pics/
+    └── appointment-booking-design_23-2148557730.avif  # Hero/Preview Image
 ```
 
 ---
 
-## 🌟 Features
+## ✨ Key Highlights
 
-- 📅 **Responsive Design**: Works seamlessly across desktops, tablets, and mobiles.
-- 🧠 **Minimal & Clean UI**: Focuses on user-friendliness and accessibility.
-- 🖱️ **Interactive Elements**: Basic interactivity using JavaScript for form handling or UI effects.
-- 🎨 **Custom Styling**: Built from scratch using pure CSS, no frameworks.
-
----
-
-## 🚀 Getting Started
-
-To run the project locally, follow these simple steps:
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/sambhavraghuvanshi/sambhavraghuvanshi-prodigy_wd_04.git
-cd sambhavraghuvanshi-prodigy_wd_04
-```
-## Open in Browser
-You can directly open the project by launching the index.html file:
-
-Locate index.html
-
-Right-click → Open With → Your preferred browser
-
-No build tools or servers required — this is a fully static project.
+- 💼 **Professional Introduction**: A concise yet impactful bio section that tells who I am.
+- 🛠️ **Project Showcase**: Highlights of my best work with potential links to live demos or GitHub repos.
+- 📱 **Responsive Design**: Mobile-friendly layout for recruiters or visitors on any device.
+- 📫 **Contact Section**: Direct call-to-action for connecting or hiring.
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose          |
-| ---------- | ---------------- |
-| HTML5      | Page structure   |
-| CSS3       | Styling & Layout |
-| JavaScript | Interactivity    |
+| Tech        | Description                             |
+|-------------|-----------------------------------------|
+| HTML5       | Semantic structure and layout            |
+| CSS3        | Modern styling using Flexbox & media queries |
+| JavaScript  | Simple interactions (e.g., menu toggles)  |
 
 ---
 
-## 📚 Learning Outcomes
+## 🔧 Setup Instructions
 
-Responsive UI development from scratch
+1. **Clone the Repository**
 
-Clean code organization and semantic HTML
+```bash
+git clone https://github.com/sambhavraghuvanshi/sambhavraghuvanshi-prodigy_wd_04.git
+cd sambhavraghuvanshi-prodigy_wd_04
+```
 
-Styling with Flexbox & CSS media queries
+2. **Open the Site**
 
-Adding JavaScript functionality without libraries
+Simply open the `index.html` file in your preferred browser:
 
----
+```
+Right-click > Open with > Browser
+```
 
-## 📌 Future Improvements
-
-Integrate with backend for actual appointment bookings
-
-Add calendar date-picker functionality
-
-Form validation & alerts
-
-Use frameworks like React for scalability
+No frameworks, compilers, or servers required.
 
 ---
 
-## 👤 Author
+## 📈 Future Plans
 
-Sambhav Raghuvanshi
-
-📧 Email: sambhavraghuvanshi17@gmail.com
-
-📌 Task 4 — Prodigy Infotech Internship
-
+- Add **interactive project filters** using JavaScript
+- Implement a **dark mode toggle**
+- Include a **blog section** or thought pieces
+- Expand it into a React or Next.js SPA for scalability
 
 ---
 
-### ✅ Final Notes
+## 👤 About Me
 
-- Make sure your image path works correctly in GitHub; if not, upload the image to the repository and fix the markdown path accordingly.
-- Replace `your-email@example.com` if you wish to display contact details.
-- If this project is live (e.g., hosted via GitHub Pages or Vercel), I can also add a **Live Demo** section.
+**Sambhav Raghuvanshi**  
+🎓 B.Tech in Computer Science (AI/ML Specialization)  
+💡 Passionate about building intelligent, impactful web solutions  
+🌟 Inspired by creators like **Mark Zuckerberg**
 
+Connect with me:  
+- 💼 [LinkedIn](#) *(www.linkedin.com/in/sambhav-raghuvanshi-843670372)*
+- 💻 [GitHub](https://github.com/sambhavraghuvanshi)  
+- ✉️ Email: *sambbhavraghuvanshi17@gmail.com*
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — feel free to use the structure or design for inspiration with credit.
+
+---
+
+> “Your personal website is your digital handshake — make it count.” 💡
