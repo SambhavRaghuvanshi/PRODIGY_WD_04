@@ -5,7 +5,7 @@ Welcome to the source code of my **personal portfolio website**, crafted to show
 
 This site is a reflection of my skills, projects, and personality — built using only **HTML**, **CSS**, and **JavaScript**, demonstrating my ability to build elegant, responsive designs without relying on heavy frameworks.
 
-![Design Preview](./pics/Screenshot 2025-07-24 122746.png)
+![Design Preview](./pics/firstview.png)
 
 ---
 
